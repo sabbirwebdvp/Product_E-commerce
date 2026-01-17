@@ -1,0 +1,11 @@
+@import "tailwindcss";
+@theme{
+    --container-container:1170px;
+    --font-pop:"Poppins", sans-serif;
+    --font-inter:"Inter", sans-serif;
+   
+
+
+
+
+}
