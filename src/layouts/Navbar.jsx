@@ -28,7 +28,7 @@ const Navbar = () => {
                 <Flex className="items-center justify-between">
                     <div className=' relative w-[243px] bg-[#F5F5F5]' >
                <input className='w-full py-1 pl-4 pr-7 placeholder:text-xs font-medium font-pop' type="text" placeholder='What are you looking for?'/>
-                <IoSearchOutline className='absolute text-lg top-[9px] right-2' />
+                <IoSearchOutline className='absolute text-lg top-2 right-2' />
                 
                 </div>
                 <GoHeart className='text-lg' />
