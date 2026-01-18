@@ -12,13 +12,14 @@ import { FaFacebookF } from "react-icons/fa";
 import { FiTwitter } from "react-icons/fi";
 import { FiInstagram } from "react-icons/fi";
 import { RiLinkedinLine } from "react-icons/ri";
+import { FaRegCopyright } from "react-icons/fa";
 
 
 const Footer = () => {
   return (
-    <footer className='bg-black  pt-20 pb-15'>
+    <footer className='bg-black'>
         <Conteinar>
-            <Flex className='gap-x-23'>
+            <Flex className='gap-x-23 pt-20 pb-15 '>
                 <div className='w-3/12'>
                 <Image src={Logo} alt="Logo Image"/>
                 <h4 className='text-xl text-[#FAFAFA] font-normal font-pop pt-6 pb-6'>Subscribe</h4>
@@ -78,7 +79,12 @@ const Footer = () => {
                 </div>
             </Flex>
         </Conteinar>
+        <hr className=' text-[#ffffff20]' />
+        <Flex className='justify-center items-center pt-4 pb-6'>
+          <FaRegCopyright className='text-md text-[#ffffff40]' />
+          <p className='text-md text-[#ffffff40] font-normal font-pop text-center'> Copyright Rimel 2022. All right reserved</p>
 
+        </Flex>
 
 
 

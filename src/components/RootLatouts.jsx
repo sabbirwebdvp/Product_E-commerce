@@ -2,18 +2,17 @@ import React from 'react'
 import NewsPart from '../layouts/NewsPart'
 import Navbar from '../layouts/Navbar'
 import Footer from '../layouts/Footer'
+import { Outlet } from 'react-router-dom'
 
-
-const Home = () => {
+const RootLatouts = () => {
   return (
     <div>
-    
-    <h1 className='text-4xl'>Home page </h1>
-
-  
+    <NewsPart/>
+    <Navbar/>
+    <Outlet/>
+    <Footer/>
     </div>
-    
   )
 }
 
-export default Home
+export default RootLatouts
