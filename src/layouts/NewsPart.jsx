@@ -9,8 +9,8 @@ const NewsPart = () => {
     <section className='bg-black p-3 '>
       <Container>
         <Flex className='justify-between'>
-          <Flex className='pl-[300px]'>
-          <p className='text-sm text-[#FAFAFA] font-normal font-pop '>Summer Sale For All Swim Suits And Free Express Delivery - OFF 50%! 
+          <Flex className='pl-75'>
+          <p className='text-sm text-primary font-normal font-pop '>Summer Sale For All Swim Suits And Free Express Delivery - OFF 50%! 
             <Link to='/janina' ><span className=' ml-3 font-semibold'><u>ShopNow</u></span></Link></p>
         </Flex>
           <Language/>

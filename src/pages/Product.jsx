@@ -8,9 +8,6 @@ const Product = () => {
     <div>
     
     <h1 className='text-4xl'>Product page </h1>
-    
-
-
     </div>
   )
 }

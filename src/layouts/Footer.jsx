@@ -22,17 +22,17 @@ const Footer = () => {
             <Flex className='gap-x-23 pt-20 pb-15 '>
                 <div className='w-3/12'>
                 <Image src={Logo} alt="Logo Image"/>
-                <h4 className='text-xl text-[#FAFAFA] font-normal font-pop pt-6 pb-6'>Subscribe</h4>
+                <h4 className='text-xl text-primary font-normal font-pop pt-6 pb-6'>Subscribe</h4>
                 <FooterList className='list-none pb-4' text="Get 10% off your first order"/>
-               <div className=' relative w-[217px]' >
-                <input className='w-full text-[#FAFAFA] py-3 pl-4 pr-7 border border-[#FAFAFA] placeholder:text-md font-medium font-pop' 
+               <div className=' relative w-54.25' >
+                <input className='w-full text-primary py-3 pl-4 pr-7 border border-primary placeholder:text-md font-medium font-pop' 
                 type="text" placeholder='Enter your email ?'/>
-                 <MdSend  className='text-[#FAFAFA] absolute text-lg top-3.5 right-2' />
+                 <MdSend  className='text-primary absolute text-lg top-3.5 right-2' />
                                
                  </div>  
                 </div>
                 <div className='w-2/12'>
-                <strong className='text-xl text-[#FAFAFA] font-normal font-pop'>Support</strong>
+                <strong className='text-xl text-primary font-normal font-pop'>Support</strong>
                 <ul>
                   <FooterList className="pt-6 pb-4" text='111 Bijoy sarani, Dhaka,  DH 1515, Bangladesh.'/>
                    <FooterList className="pb-4" text='exclusive@gmail.com'/>
@@ -40,7 +40,7 @@ const Footer = () => {
                 </ul>
                 </div>
                 <div className='w-2/12 '>
-                <strong className='text-xl text-[#FAFAFA] font-normal font-pop pb-6 inline-block'>Account</strong>
+                <strong className='text-xl text-primary font-normal font-pop pb-6 inline-block'>Account</strong>
                 <ul className='flex flex-col gap-y-4 '>
                   <FooterList text='My Account'/>
                   <FooterList text='Login / Register'/>
@@ -50,7 +50,7 @@ const Footer = () => {
                 </ul>
                 </div>
                 <div className='w-2/12'>
-                <strong className='text-xl text-[#FAFAFA] font-normal font-pop pb-6 inline-block'>Quick Link</strong>
+                <strong className='text-xl text-primary font-normal font-pop pb-6 inline-block'>Quick Link</strong>
                 <ul className='flex flex-col gap-y-4 '>
                   <FooterList text='Privacy Policy'/>
                   <FooterList text='Terms Of Use'/>
@@ -59,8 +59,8 @@ const Footer = () => {
                 </ul>
                 </div>
                 <div className='w-3/12'>
-                <strong className='text-xl text-[#FAFAFA] font-normal font-pop pb-6 inline-block'>Download App</strong>
-                <p className='text-xs text-[#FAFAFA] font-normal font-pop pb-2'>Save $3 with App New User Only</p>
+                <strong className='text-xl text-primary font-normal font-pop pb-6 inline-block'>Download App</strong>
+                <p className='text-xs text-primary font-normal font-pop pb-2'>Save $3 with App New User Only</p>
                 <Flex className='pb-6'> 
                   <Image src={Qrcode} alt='QRCode'/>
                   <div className='ml-2'>
@@ -69,7 +69,7 @@ const Footer = () => {
 
                   </div>
                 </Flex>
-                <div className='flex gap-x-7 text-[#FAFAFA] text-lg font-semibold'>
+                <div className='flex gap-x-7 text-primary text-lg font-semibold'>
                   <FaFacebookF />
                   <FiTwitter />
                   <FiInstagram />
